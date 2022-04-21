@@ -1,0 +1,25 @@
+<h1> Heroe Component Works </h1>
+<!--entre las llaves dobles coge el valor de la variable de la clase-->
+<h2> {{nombre}} </h2>
+
+<dl>
+    <td> Nombre: </td>
+    <dd> {{nombre}}</dd>
+
+    <td> Edad: </td>
+    <dd>{{edad}}</dd>
+
+    <td> Función: </td>
+    <dd> {{ obtenerNombre() }}</dd>
+
+    <td> En mayusculas: </td>
+    <dd> {{ capitalName }}</dd>
+</dl>
+
+<button (click) = "cambiarNombre()">
+     Cambiar héroe 
+</button>
+<button (click)=" cambiarEdad()">
+    Cambiar edad 
+</button>
+
